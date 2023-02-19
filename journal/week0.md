@@ -2,46 +2,45 @@ GitHub
 A web-based platform for version control and collaborative software development
 
 ♾️ STEP 1 > What is GitHub?
+
 ♾️ STEP 2 > Clone the repo from ExamProCo/aws-bootcamp-cruddur-2023
 Gitpod
 get·pod : a cloud-based integrated development environment (IDE)
 
 ♾️ STEP 1 > What is Gitpod?
 
-♾️ STEP 2 > Change Gitpod to Darkmode
-
-♾️ STEP 3 > Create a new Gipod workspace for 
+♾️ STEP 2> Create a new Gipod workspace for 
 https://marciemaps-awsbootcampc-ttj2ez7xi3h.ws-us87.gitpod.io/
 
-"C:\Users\marci\Desktop\GITPOD user.png"
+["C:\Users\marci\Desktop\GITPOD user.png"](https://github.com/Marciemaps/aws-bootcamp-cruddur-2023/issues/3#issue-1590780358)
 
 ♾️ STEP 1 > What is AWS?
 ♾️ STEP 2 > Enable MFA for AWS Root account and IAM User
 
-"C:\Users\marci\Desktop\MFA for user.png"
+["C:\Users\marci\Desktop\MFA for user.png"](https://github.com/Marciemaps/aws-bootcamp-cruddur-2023/issues/4#issue-1590782413)
 
 TEP 3 > Login to my existing AWS account
 ♾️ STEP 4 > Verify my billing alarms are in place for actual spend & credits spend
 
 I created a monthly budget to alert me when my forcasted costs reaches 80% of $5.
 
-"C:\Users\marci\Desktop\Budget.png"
+["C:\Users\marci\Desktop\Budget.png"](https://github.com/Marciemaps/aws-bootcamp-cruddur-2023/issues/5#issue-1590782737)
 
 ♾️ STEP 5 > Verify Admin User is created
 
-"C:\Users\marci\Desktop\ADMIN3.png"
+["C:\Users\marci\Desktop\ADMIN3.png"](https://github.com/Marciemaps/aws-bootcamp-cruddur-2023/issues/6#issue-1590782934)
 
 ♾️ STEP 6 > Generate AWS Credentials
 
-"C:\Users\marci\Desktop\ACCESS KEYS.png"
+["C:\Users\marci\Desktop\ACCESS KEYS.png"](https://github.com/Marciemaps/aws-bootcamp-cruddur-2023/issues/7#issue-1590783170)
 
  STEP 7 > Use CloudShell
  
- "C:\Users\marci\Desktop\Cloudshell.png"
+[ "C:\Users\marci\Desktop\Cloudshell.png"](https://github.com/Marciemaps/aws-bootcamp-cruddur-2023/issues/8#issue-1590783399)
  
  STEP 8 > Install AWS CLI via Gitpod
  
- "C:\Users\marci\Desktop\aws to gitpod.png"
+[ "C:\Users\marci\Desktop\aws to gitpod.png"](https://github.com/Marciemaps/aws-bootcamp-cruddur-2023/issues/9#issue-1590783666)
 
 
 # Week 0 — Billing and Architecture
@@ -56,14 +55,14 @@ Setup a Billing Alarm with SNS via the AWS CLI
 ♾️ STEP 1 > Create a topic
 ♾️ STEP 2 > Subscribe to a topic
 ♾️ STEP 3 > Verify the alarm was created in AWS after confirmation email
-"C:\Users\marci\Desktop\Billing alarm.png"
-"C:\Users\marci\Desktop\Subscription.png"
+["C:\Users\marci\Desktop\Billing alarm.png"](https://github.com/Marciemaps/aws-bootcamp-cruddur-2023/issues/10#issue-1590783844)
+["C:\Users\marci\Desktop\Subscription.png"](https://github.com/Marciemaps/aws-bootcamp-cruddur-2023/issues/11#issue-1590784030)
 
 Well-Architected Tool
 ♾️ STEP 1 > Go through ALL the questions
 ♾️ STEP 2 > Review the results
 
-"C:\Users\marci\Desktop\Well-Architecrted.png"
+["C:\Users\marci\Desktop\Well-Architecrted.png"](https://github.com/Marciemaps/aws-bootcamp-cruddur-2023/issues/12#issue-1590784254)
 
 
 Taks I completed this week include: 
