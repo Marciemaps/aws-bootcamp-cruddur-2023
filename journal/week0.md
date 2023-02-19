@@ -15,4 +15,4 @@ Challenges I faced:
 - Setting the correct budget code, discovered that my lines were incorrect which then made my whole code not work.
 - Connecting AWS CLI to gitpod, selecting the wrong code meant the set up could not complete. Corrected that.
 - Building off of the napkin diagram is challenging, and may continue to build up on the napkin diagram so as to give Crudder the best and most affordable features available 
-
+- I built the correct code & followed the tutorial for alarm billing for cloudwatch, however, i kept receiving the cannot find file code, so i used VS code, on my desktop to continue and still did not work out. 
