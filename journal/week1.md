@@ -22,7 +22,7 @@ npm start
 
 1b- I created a frontend end point for notifications page
 
-frontend-react-js/src/pages/NotificationPage.js
+[frontend-react-js/src/pages/NotificationPage.js](https://github.com/innocentkagina/aws-bootcamp-cruddur-2023/blob/97d27fc3a3915d3b5d5d500e3b0075451a077b8e/frontend-react-js/src/pages/NotificationPage.js)
 
 2-I created a Dockerfile for frontend and backend
 
