@@ -10,11 +10,14 @@ I added a dockerfile
 pip install -r requirements.txt
 flask run
 
- https://github.com/Marciemaps/aws-bootcamp-cruddur-2023/issues/13#issue-1604934486
+![Download Pip3](https://user-images.githubusercontent.com/95619710/222173436-78907378-09f2-49e4-915b-1c15b4df719a.png)
 
-https://github.com/Marciemaps/aws-bootcamp-cruddur-2023/issues/14#issue-1604935520
 
-https://github.com/Marciemaps/aws-bootcamp-cruddur-2023/issues/16#issue-1604937226
+![Flask install](https://user-images.githubusercontent.com/95619710/222173535-4d6b0ce5-fea5-4656-9d48-ef573a2f60f6.png)
+
+
+![Build Docker Files and Show Images](https://user-images.githubusercontent.com/95619710/222173670-47941497-08ff-4535-b647-11336374b26d.png)
+
 
 npm install
 npm start
@@ -24,7 +27,8 @@ I created a backend end point for notifications page
 
 [[backend-flask/app.py]](https://github.com/Marciemaps/aws-bootcamp-cruddur-2023/blob/main/backend-flask/app.py)
 
-https://github.com/Marciemaps/aws-bootcamp-cruddur-2023/issues/20
+![Backend-Crudder](https://user-images.githubusercontent.com/95619710/222173874-819e6b72-6192-4fda-bbb5-7f50c0d8d896.png)
+
 
 I created a frontend end point for notifications page
 
@@ -59,7 +63,8 @@ I managed to create a docker-compose file to combine two images created as well 
 
 I ran the docker-compose file to ensure both apps run and can talk to each other
 
-Images: https://github.com/Marciemaps/aws-bootcamp-cruddur-2023/issues/17#issue-1604938143
+![Crudder Notifications](https://user-images.githubusercontent.com/95619710/222174056-19d85c4c-cb2e-4390-8648-816480084843.png)
+
 
 docker compose -f "docker-compose.yml" up -d --build 
 
@@ -70,4 +75,7 @@ volumes:
       - ./backend-flask:/backend-flask
 
 https://github.com/Marciemaps/aws-bootcamp-cruddur-2023/issues/21#issue-1604941860    
+
+![Database Connect](https://user-images.githubusercontent.com/95619710/222174117-9e560d54-8024-4f56-9e85-150e07bea057.png)
+
       
