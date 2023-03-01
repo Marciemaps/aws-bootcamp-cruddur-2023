@@ -23,17 +23,18 @@ npm start
 
 [[frontend-react-js/src/pages/NotificationPage.js]](https://github.com/Marciemaps/aws-bootcamp-cruddur-2023/blob/main/frontend-react-js/src/pages/NotificationsFeedPage.js)
 
+
 2-I created a Dockerfile for frontend and backend
 
 docker for frontend
 
-frontend-react-js/Dockerfile
+[frontend-react-js/Dockerfile](https://github.com/Marciemaps/aws-bootcamp-cruddur-2023/blob/main/frontend-react-js/Dockerfile)
 
 docker for backend
 
-backend-flask/Dockerfile
+[backend-flask/Dockerfile](https://github.com/Marciemaps/aws-bootcamp-cruddur-2023/blob/main/backend-flask/Dockerfile)
 
-3-I also built image and ran containers of apps separate
+I built an image and ran containers of apps separate
 
 docker run for frontend
 
@@ -45,16 +46,16 @@ docker run for frontend
 docker build -t aws-bootcamp-cruddur-2023-backend /backend-flask
 docker run --rm -d  aws-bootcamp-cruddur-2023-backend-flask:latest
 
-4-I created a docker- compose file to combine two images created as well as added postgres and dynamoDB service docker-compose file
+I created a docker- compose file to combine two images created as well as added postgres and dynamoDB service docker-compose file
 
-docker-compose.yml
+[docker-compose.yml](https://github.com/Marciemaps/aws-bootcamp-cruddur-2023/blob/main/docker-compose.yml)
 
-5-I ran the docker-compose file to ensure both apps run and can talk to each other
+I ran the docker-compose file to ensure both apps run and can talk to each other
 
 docker compose -f "docker-compose.yml" up -d --build 
-Image of The Budget I Created
 
-6-I also added persistent data storage in docker-compose file by adding volumes for backend
+
+I also added persistent data storage in docker-compose file by adding volumes for backend
 
 volumes:
       - ./backend-flask:/backend-flask
