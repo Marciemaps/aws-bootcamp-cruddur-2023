@@ -2,9 +2,6 @@
 
 Homework Requirements:
 
-Required Work
-BACKEND: I ran these separately.
-
 I added a dockerfile
 
 pip install -r requirements.txt
