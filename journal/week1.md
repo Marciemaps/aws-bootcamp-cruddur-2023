@@ -18,11 +18,10 @@ npm start
 
 1a-I created a backend end point for notifications page
 
-[backend-flask/app.py](https://github.com/innocentkagina/aws-bootcamp-cruddur-2023/blob/97d27fc3a3915d3b5d5d500e3b0075451a077b8e/backend-flask/app.py)
-
+[[backend-flask/app.py]](https://github.com/Marciemaps/aws-bootcamp-cruddur-2023/blob/main/backend-flask/app.py)
 1b- I created a frontend end point for notifications page
 
-[frontend-react-js/src/pages/NotificationPage.js](https://github.com/innocentkagina/aws-bootcamp-cruddur-2023/blob/97d27fc3a3915d3b5d5d500e3b0075451a077b8e/frontend-react-js/src/pages/NotificationPage.js)
+[[frontend-react-js/src/pages/NotificationPage.js]](https://github.com/Marciemaps/aws-bootcamp-cruddur-2023/blob/main/frontend-react-js/src/pages/NotificationsFeedPage.js)
 
 2-I created a Dockerfile for frontend and backend
 
