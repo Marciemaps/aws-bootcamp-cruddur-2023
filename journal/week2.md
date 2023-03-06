@@ -108,8 +108,6 @@ b) "AWS xray create group.. "service(\"backend-flask\") into the terminal
 
 ![Xray](https://user-images.githubusercontent.com/95619710/223203351-73b58edb-142b-4df0-85f7-c528a0a30e40.png)
 
-![Xray](https://user-images.githubusercontent.com/95619710/223203384-3a881545-7290-4b56-8038-7f1d37450c81.png)
-
 INSTALL DAEMON
 
 1. From "Add Daemon Service to Docker Compose" paste into DockerCompose.yml under volumes: 
