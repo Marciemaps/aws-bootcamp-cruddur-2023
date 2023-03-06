@@ -1,19 +1,25 @@
 {
 	"name": "Cruddur Configuration",
-    "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	"features": {
 		"ghcr.io/devcontainers/features/aws-cli:1": {}
-},
-"customizations": {
-	"vscode": {
-		"extensions": [
-			"ms-azuretools.vscode-docker",
-			"ms-python.python",
-			"xabikos.JavaScriptSnippets"
-		]
+	},
+	"remoteEnv": {
+		"MAWS_CLI_AUTO_PROMPT": "on-partial"
+
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-azuretools.vscode-docker",
+				"ms-python.python",
+				"xabikos.JavaScriptSnippets"
+			]
+		}
 	}
 }
+
 
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
