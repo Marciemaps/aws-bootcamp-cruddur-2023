@@ -6,8 +6,7 @@
 		"ghcr.io/devcontainers/features/aws-cli:1": {}
 	},
 	"remoteEnv": {
-		"MAWS_CLI_AUTO_PROMPT": "on-partial"
-
+		"AWS_CLI_AUTO_PROMPT": "on-partial"
 	},
 	"customizations": {
 		"vscode": {
@@ -18,10 +17,6 @@
 			]
 		}
 	}
-}
-
-
-
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
@@ -31,3 +26,4 @@
 	// Uncomment to connect as an existing user other than the container default. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "devcontainer"
 }
+
