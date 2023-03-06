@@ -13,7 +13,8 @@
 			"extensions": [
 				"ms-azuretools.vscode-docker",
 				"ms-python.python",
-				"xabikos.JavaScriptSnippets"
+				"xabikos.JavaScriptSnippets",
+				"donjayamanne.python-extension-pack"
 			]
 		}
 	}
