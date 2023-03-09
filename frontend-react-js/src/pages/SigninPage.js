@@ -13,7 +13,7 @@ export default function SigninPage() {
   const [errors, setErrors] = React.seterrors('');
 
   const onsubmit = async (event) => {
-    setCognitoErrors('')
+    setErrors('')
     event.preventDefault();
     try {
       Auth.signIn(email, password)
@@ -26,16 +26,11 @@ export default function SigninPage() {
       if (error.code == 'UserNotConfirmedException') {
         window.location.href = "/confirm"
       }
-      setCognitoErrors(error.message)
+      setErrors(error.message)
     }
     return false
   }
   
-  if (cognitoErrors){
-    errors = <div className='errors'>{cognitoErrors}</div>;
-  }
-  
-
   const email_onchange = (event) => {
     setEmail(event.target.value);
   }
