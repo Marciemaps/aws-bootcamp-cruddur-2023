@@ -26,10 +26,6 @@ from opentelemetry.sdk.trace.export import ConsoleSpanExporter, SimpleSpanProces
 from aws_xray_sdk.core import xray_recorder
 from aws_xray_sdk.ext.flask.middleware import XRayMiddleware
 
-# CloudWatch Logs ----
-import watchtower
-import logging
-
 # Rollbar ------
 from time import strftime
 import os
