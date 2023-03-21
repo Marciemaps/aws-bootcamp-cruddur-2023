@@ -196,7 +196,7 @@ def data_show_activity(activity_uuid):
 
 @app.route("/api/activities/<string:activity_uuid>/reply", methods=['POST','OPTIONS'])
 @cross_origin()
-def "data_activities_reply"(activity_uuid):
+def data_activities_reply(activity_uuid):
    user_handle  = 'andrewbrown'
    message = request.json['message']
    model = CreateReply.run(message, user_handle, activity_uuid)
