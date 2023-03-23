@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "aws-amplify": "^5.0.17"
+    "aws-amplify": "^5.0.21"
   }
 }
