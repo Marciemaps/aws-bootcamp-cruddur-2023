@@ -31,3 +31,9 @@ The `/journal` directory contains
 - [ ] [Week 11](journal/week11.md)
 - [ ] [Week 12](journal/week12.md)
 - [ ] [Week 13](journal/week13.md)
+
+REACT_APP_AWS_PROJECT_REGION=
+REACT_APP_AWS_COGNITO_IDENTITY_POOL_ID
+REACT_APP_AWS_COGNITO_REGION
+REACT_APP_AWS_USER_POOLS_ID
+REACT_APP_CLIENT_ID
