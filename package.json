@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "aws-amplify": "^5.0.21"
+    "aws-amplify": "^5.0.21",
+    "react-scripts": "^5.0.1"
   }
 }
